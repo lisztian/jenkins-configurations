@@ -26,6 +26,10 @@
   <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
   <triggers/>
   <concurrentBuild>false</concurrentBuild>
+  <rootModule>
+    <groupId>com.parcel2home</groupId>
+    <artifactId>parcel2home</artifactId>
+  </rootModule>
   <goals>clean package -P lib-jars,with-web-modules</goals>
   <aggregatorStyleBuild>true</aggregatorStyleBuild>
   <incrementalBuild>false</incrementalBuild>
