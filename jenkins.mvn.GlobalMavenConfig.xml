@@ -1,7 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <jenkins.mvn.GlobalMavenConfig>
-  <settingsProvider class="jenkins.mvn.FilePathSettingsProvider">
-    <path>/Users/luli2/Documents/tools/apache-maven-3.3.9</path>
-  </settingsProvider>
+  <settingsProvider class="jenkins.mvn.DefaultSettingsProvider"/>
   <globalSettingsProvider class="jenkins.mvn.DefaultGlobalSettingsProvider"/>
 </jenkins.mvn.GlobalMavenConfig>
